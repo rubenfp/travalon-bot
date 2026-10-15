@@ -24,6 +24,7 @@ q = urllib.parse.quote(QUERY)
 FEEDS = {
     "Google News": f"https://news.google.com/rss/search?q={q}&hl=es&gl=ES&ceid=ES:es",
     "Bing News": f"https://www.bing.com/news/search?q={q}&format=rss&setlang=es",
+    "Alicante Plaza": "https://alicanteplaza.es/rss/?i=51&dominio=alicanteplaza.es",
 }
 UA = {"User-Agent": "Mozilla/5.0 (compatible; TravalonBot/1.0)"}
 
